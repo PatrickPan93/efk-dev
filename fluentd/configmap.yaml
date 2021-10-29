@@ -106,7 +106,7 @@ data:
       user elastic # FLUENT_ELASTICSEARCH_USER | FLUENT_ELASTICSEARCH_PASSWORD
       password elastic
       logstash_format true
-      logstash_prefix k8s
+      logstash_prefix kubernetes
       request_timeout 30s
       <buffer>
         @type file
